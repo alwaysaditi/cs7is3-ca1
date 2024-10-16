@@ -72,7 +72,7 @@ public class QueryExpander extends Analyzer {
     }
 
     private static SynonymMap buildSynonym() throws IOException, ParseException {
-        File file = new File("cs7is3-assignment/wn/wn_s.pl"); // Ensure the path is correct
+        File file = new File("wn/wn_s.pl"); // Ensure the path is correct
         InputStream stream = new FileInputStream(file);
         Reader rulesReader = new InputStreamReader(stream);
 
